@@ -21,7 +21,7 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
-
+    gap:3em;
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -29,6 +29,9 @@ h1 {
 .col {
     /* these are now flex items */
     width: 100%;
+    text-align:center;
+    
+
 }
 
 .hero {
@@ -59,4 +62,13 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+  
+
+.xe{
+    
+        padding: 100px 0;
+        background-color: #136c72;
+        color: #FFF;
+   
 }
